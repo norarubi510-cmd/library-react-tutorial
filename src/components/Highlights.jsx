@@ -10,38 +10,21 @@ const Highlight = () => {
                         Why choose <span className="purple">Library</span>
                     </h2>
                     <div className="highlights__wrapper">
-                        <div className="highlight">
-                            <div className="highlight_img">
-                                <FontAwesomeIcon icon="bolt" />
-                            </div>
-                            <h3 className="highlight_subtitle">Easy and Quick</h3>
-                            <p className="highlight_para">
-                                Get access to the book you purchased online instantly.
-                            </p>
-                        </div>
-                       <div className="highlights__wrapper">
-                        <div className="highlight">
-                            <div className="highlight_img">
-                                <FontAwesomeIcon icon="book-open" />
-                            </div>
-                            <h3 className="highlight_subtitle">10,000+ Books</h3>
-                            <p className="highlight_para">
-                                Library has books in all your favorite categories.
-                            </p>
-                        </div>
-                        <div className="highlights__wrapper">
-                        <div className="highlight">
-                            <div className="highlight_img">
-                                <FontAwesomeIcon icon="tags" />
-                            </div>
-                            <h3 className="highlight_subtitle">Affordable</h3>
-                            <p className="highlight_para">
-                                Get your hands on popular books for as little as $10.
-                            </p>
-                        </div>
-                    </div>
-
-                    </div>
+                    <Highlight 
+                        icon={<FontAwesomeIcon icon="bolt" />} 
+                        title="Easy and Quick" />
+                        para="Get access to the book you purchased online instantly."
+                    />
+                    <Highlight 
+                        icon={<FontAwesomeIcon icon="open-book" />} 
+                        title="Easy and Quick" />
+                        para="Read your favorite books online or offline, anytime."
+                    />
+                    <Highlight 
+                        icon={<FontAwesomeIcon icon="tags" />} 
+                        title="10,000+ Books" />
+                        para="Explore a wide variety of books from all genres."
+                    />
                 </div>
             </div>
         </section>
