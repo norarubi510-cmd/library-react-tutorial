@@ -14,21 +14,21 @@ const Highlight = () => {
                         icon={<FontAwesomeIcon icon="bolt" />} 
                         title="Easy and Quick" />
                         para="Get access to the book you purchased online instantly."
-                    />
+                    /
                     <Highlight 
                         icon={<FontAwesomeIcon icon="open-book" />} 
                         title="Easy and Quick" />
                         para="Read your favorite books online or offline, anytime."
-                    />
+                    /
                     <Highlight 
                         icon={<FontAwesomeIcon icon="tags" />} 
                         title="10,000+ Books" />
                         para="Explore a wide variety of books from all genres."
-                    />
+                    /
                 </div>
             </div>
         </section>
     );
-}
+};
 
 export default Highlights;
